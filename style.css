@@ -1,0 +1,240 @@
+.html {
+    width: 0px;
+    height: 0px;
+}
+
+
+body {
+    background: #003D92;
+    overflow-x: hidden;
+    height: 100%;
+    width: auto;
+}
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 3s;
+}
+
+.svgs {
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    left: 10%;
+    top: 0%;
+}
+
+.N {
+    position: absolute;
+    left: 195px;
+    top: 385.5px;
+}
+
+.A1 {
+    position: absolute;
+    left: 452px;
+    top: 386.5px;
+}
+
+.A2 {
+    position: absolute;
+    left: 929px;
+    top: 386.5px;
+}
+
+.S {
+    position: absolute;
+    left: 727.94px;
+    top: 373.5px;
+}
+
+.A-1-1 {
+    position: absolute;
+    width: 75.5px;
+    height: 101.5px;
+    left: 540px;
+    top: 470px;
+}
+
+.A-2-1 {
+    position: absolute;
+    left: 1020px;
+    top: 470px;
+}
+
+/*False claims*/
+.FC div {
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    background: #FF1923;
+    border-radius: 20px;
+    box-shadow: none;
+    stroke-width: 0%;
+}
+
+.FC p {
+    font-weight: 700;
+    font-size: larger;
+    line-height: 150%;
+    font-family: Yu Gothic;
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.FC div:hover {
+    background: #34EB3B;
+    transition: 0.6s;
+}
+
+.F1 {
+    transform: translate(30%, 700%);
+    text-decoration: none;
+}
+
+.F2 {
+    transform: translateY(200%);
+}
+
+.F3 {
+    transform: translate(110%,250%);
+}
+
+.F4 {
+    transform: translate(30%, 860%);
+}
+
+.F5 {
+    transform: translate(220%, 200%);
+}
+
+.F6 {
+    transform: translate(220%, 40%);
+}
+
+.F7 {
+    transform: translate(0%, 40%);
+}
+
+.F8 {
+    transform: translate(155%, 860%);
+}
+
+.F9 {
+    transform: translate(110%, 80%);
+}
+
+.F10 {
+    transform: translate(155%, 700%);
+}
+
+/*Bibliography - Bottom First Page*/
+.bibliography {
+    background: white;
+    height: 100%;
+    width: 100%;
+    transform: translate(-0.4%,100%);
+
+    position: absolute;
+    font-family: Yu Gothic;
+    font-style: normal;
+    color: #000000;
+}
+
+
+.bibliography h2 {
+    width: 809px;
+    height: 120px;
+    padding-left: 2%;
+
+    font-weight: bold;
+    font-size: 5vw;
+    line-height: 128px;
+}
+
+.bibliography p {
+    width: 85%;
+    height: auto;
+    padding-left: 2.3%;
+    transform: translateY(-10%);
+
+
+    font-weight: normal;
+    font-size: 1.3vw;
+    line-height: 170%;
+}
+
+
+/*Subpages*/
+.main {
+    background: #FF1923;
+    height: 1500px;
+    width: 96%;
+    border-radius: 30px;
+    left: 20%;
+    transform: translate(0%, 5%);
+}
+
+.main {
+    color: white;
+    font-family: Yu Gothic;
+    font-style: normal;
+}
+
+.main h2 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 128px;
+    transform: translate(1%,-60%);
+}
+
+.main p {
+    line-height: 64.08px;
+    font-weight: medium;
+    font-size: 40px;
+    transform: translate(2%,-14%);
+    width: 70%;
+    padding-top: 2%;
+}
+
+.main1 {
+    background: #FF1923;
+    height: 1200px;
+    width: 96%;
+    border-radius: 30px;
+    left: 20%;
+    transform: translate(0%, 5%);
+    color: white;
+    font-family: Yu Gothic;
+    font-style: normal;
+}
+
+.main1 h2 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 128px;
+    transform: translate(1%,-60%);
+}
+
+.main1 p {
+    line-height: 64.08px;
+    font-weight: medium;
+    font-size: 40px;
+    transform: translate(2%,-18%);
+    width: 70%;
+    padding-top: 2%;
+}
+
+.img {
+    height: 280px;
+    width: auto;
+    transform: translate(260%, -580%);
+    border-radius: 15px;
+}
+
+.img1 {
+    height: 280px;
+    width: auto;
+    transform: translate(157%, -430%);
+    border-radius: 15px;
+}
