@@ -131,9 +131,9 @@ body {
 /*Bibliography - Bottom First Page*/
 .bibliography {
     background: white;
-    height: 100%;
+    height: 360%;
     width: 100%;
-    transform: translate(-0.4%,100%);
+    transform: translate(-0.4%,30%);
 
     position: absolute;
     font-family: Yu Gothic;
@@ -150,13 +150,14 @@ body {
     font-weight: bold;
     font-size: 5vw;
     line-height: 128px;
+    transform: translateY(-10%);
 }
 
 .bibliography p {
     width: 85%;
     height: auto;
     padding-left: 2.3%;
-    transform: translateY(-10%);
+    transform: translateY(-3%);
 
 
     font-weight: normal;
@@ -199,7 +200,7 @@ body {
 
 .main1 {
     background: #FF1923;
-    height: 1200px;
+    height: 1100px;
     width: 96%;
     border-radius: 30px;
     left: 20%;
@@ -225,6 +226,145 @@ body {
     padding-top: 2%;
 }
 
+.main2 {
+    background: #FF1923;
+    height: 1750px;
+    width: 96%;
+    border-radius: 30px;
+    left: 20%;
+    transform: translate(0%, 5%);
+    color: white;
+    font-family: Yu Gothic;
+    font-style: normal;
+}
+
+.main2 h2 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 128px;
+    transform: translate(1%,-60%);
+}
+
+.main2 p {
+    line-height: 64.08px;
+    font-weight: medium;
+    font-size: 40px;
+    transform: translate(2%,-10%);
+    width: 70%;
+    padding-top: 2%;
+}
+
+.main4 {
+    background: #FF1923;
+    height: 3000px;
+    width: 96%;
+    border-radius: 30px;
+    left: 20%;
+    transform: translate(0%, 3%);
+    color: white;
+    font-family: Yu Gothic;
+    font-style: normal;
+}
+
+.main4 h2 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 128px;
+    transform: translate(1%,-60%);
+}
+
+.main4 p {
+    line-height: 64.08px;
+    font-weight: medium;
+    font-size: 40px;
+    transform: translate(2%,-7%);
+    width: 70%;
+    padding-top: 2%;
+}
+
+.main3 {
+    background: #FF1923;
+    height: 1200px;
+    width: 96%;
+    border-radius: 30px;
+    left: 20%;
+    transform: translate(0%, 3%);
+    color: white;
+    font-family: Yu Gothic;
+    font-style: normal;
+}
+
+.main3 h2 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 128px;
+    transform: translate(1%,-60%);
+}
+
+.main3 p {
+    line-height: 64.08px;
+    font-weight: medium;
+    font-size: 40px;
+    transform: translate(2%,-17%);
+    width: 70%;
+    padding-top: 2%;
+}
+
+.main7 {
+    background: #FF1923;
+    height: 1100px;
+    width: 96%;
+    border-radius: 30px;
+    left: 20%;
+    transform: translate(0%, 3%);
+    color: white;
+    font-family: Yu Gothic;
+    font-style: normal;
+}
+
+.main7 h2 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 128px;
+    transform: translate(1%,-60%);
+}
+
+.main7 p {
+    line-height: 64.08px;
+    font-weight: medium;
+    font-size: 40px;
+    transform: translate(2%,-19%);
+    width: 70%;
+    padding-top: 2%;
+}
+
+.main11 {
+    background: #FF1923;
+    height: 1200px;
+    width: 96%;
+    border-radius: 30px;
+    left: 20%;
+    transform: translate(0%, 3%);
+    color: white;
+    font-family: Yu Gothic;
+    font-style: normal;
+}
+
+.main11 h2 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 128px;
+    transform: translate(1%,-60%);
+}
+
+.main11 p {
+    line-height: 64.08px;
+    font-weight: medium;
+    font-size: 40px;
+    transform: translate(2%,-17%);
+    width: 70%;
+    padding-top: 2%;
+}
 .img {
     height: 280px;
     width: auto;
